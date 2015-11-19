@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322462F81BFE166D00B945C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322462F71BFE166D00B945C0 /* AppDelegate.swift */; };
+		322462FA1BFE166D00B945C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322462F91BFE166D00B945C0 /* ViewController.swift */; };
+		322462FD1BFE166D00B945C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322462FB1BFE166D00B945C0 /* Main.storyboard */; };
+		322462FF1BFE166D00B945C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322462FE1BFE166D00B945C0 /* Assets.xcassets */; };
+		322463021BFE166D00B945C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322463001BFE166D00B945C0 /* LaunchScreen.storyboard */; };
+		3224630D1BFE166D00B945C0 /* CIBCMarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3224630C1BFE166D00B945C0 /* CIBCMarsTests.swift */; };
+		322463181BFE166D00B945C0 /* CIBCMarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322463171BFE166D00B945C0 /* CIBCMarsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		322463091BFE166D00B945C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322462EC1BFE166D00B945C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322462F31BFE166D00B945C0;
+			remoteInfo = CIBCMars;
+		};
+		322463141BFE166D00B945C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322462EC1BFE166D00B945C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322462F31BFE166D00B945C0;
+			remoteInfo = CIBCMars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		322462F41BFE166D00B945C0 /* CIBCMars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIBCMars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322462F71BFE166D00B945C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		322462F91BFE166D00B945C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		322462FC1BFE166D00B945C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		322462FE1BFE166D00B945C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		322463011BFE166D00B945C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		322463031BFE166D00B945C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322463081BFE166D00B945C0 /* CIBCMarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIBCMarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3224630C1BFE166D00B945C0 /* CIBCMarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIBCMarsTests.swift; sourceTree = "<group>"; };
+		3224630E1BFE166D00B945C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322463131BFE166D00B945C0 /* CIBCMarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIBCMarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		322463171BFE166D00B945C0 /* CIBCMarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIBCMarsUITests.swift; sourceTree = "<group>"; };
+		322463191BFE166D00B945C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322462F11BFE166D00B945C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322463051BFE166D00B945C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322463101BFE166D00B945C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322462EB1BFE166D00B945C0 = {
+			isa = PBXGroup;
+			children = (
+				322462F61BFE166D00B945C0 /* CIBCMars */,
+				3224630B1BFE166D00B945C0 /* CIBCMarsTests */,
+				322463161BFE166D00B945C0 /* CIBCMarsUITests */,
+				322462F51BFE166D00B945C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		322462F51BFE166D00B945C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322462F41BFE166D00B945C0 /* CIBCMars.app */,
+				322463081BFE166D00B945C0 /* CIBCMarsTests.xctest */,
+				322463131BFE166D00B945C0 /* CIBCMarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322462F61BFE166D00B945C0 /* CIBCMars */ = {
+			isa = PBXGroup;
+			children = (
+				322462F71BFE166D00B945C0 /* AppDelegate.swift */,
+				322462F91BFE166D00B945C0 /* ViewController.swift */,
+				322462FB1BFE166D00B945C0 /* Main.storyboard */,
+				322462FE1BFE166D00B945C0 /* Assets.xcassets */,
+				322463001BFE166D00B945C0 /* LaunchScreen.storyboard */,
+				322463031BFE166D00B945C0 /* Info.plist */,
+			);
+			path = CIBCMars;
+			sourceTree = "<group>";
+		};
+		3224630B1BFE166D00B945C0 /* CIBCMarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3224630C1BFE166D00B945C0 /* CIBCMarsTests.swift */,
+				3224630E1BFE166D00B945C0 /* Info.plist */,
+			);
+			path = CIBCMarsTests;
+			sourceTree = "<group>";
+		};
+		322463161BFE166D00B945C0 /* CIBCMarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				322463171BFE166D00B945C0 /* CIBCMarsUITests.swift */,
+				322463191BFE166D00B945C0 /* Info.plist */,
+			);
+			path = CIBCMarsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322462F31BFE166D00B945C0 /* CIBCMars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3224631C1BFE166D00B945C0 /* Build configuration list for PBXNativeTarget "CIBCMars" */;
+			buildPhases = (
+				322462F01BFE166D00B945C0 /* Sources */,
+				322462F11BFE166D00B945C0 /* Frameworks */,
+				322462F21BFE166D00B945C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CIBCMars;
+			productName = CIBCMars;
+			productReference = 322462F41BFE166D00B945C0 /* CIBCMars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		322463071BFE166D00B945C0 /* CIBCMarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3224631F1BFE166D00B945C0 /* Build configuration list for PBXNativeTarget "CIBCMarsTests" */;
+			buildPhases = (
+				322463041BFE166D00B945C0 /* Sources */,
+				322463051BFE166D00B945C0 /* Frameworks */,
+				322463061BFE166D00B945C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3224630A1BFE166D00B945C0 /* PBXTargetDependency */,
+			);
+			name = CIBCMarsTests;
+			productName = CIBCMarsTests;
+			productReference = 322463081BFE166D00B945C0 /* CIBCMarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		322463121BFE166D00B945C0 /* CIBCMarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322463221BFE166D00B945C0 /* Build configuration list for PBXNativeTarget "CIBCMarsUITests" */;
+			buildPhases = (
+				3224630F1BFE166D00B945C0 /* Sources */,
+				322463101BFE166D00B945C0 /* Frameworks */,
+				322463111BFE166D00B945C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322463151BFE166D00B945C0 /* PBXTargetDependency */,
+			);
+			name = CIBCMarsUITests;
+			productName = CIBCMarsUITests;
+			productReference = 322463131BFE166D00B945C0 /* CIBCMarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		322462EC1BFE166D00B945C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "John Jarrell";
+				TargetAttributes = {
+					322462F31BFE166D00B945C0 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					322463071BFE166D00B945C0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 322462F31BFE166D00B945C0;
+					};
+					322463121BFE166D00B945C0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 322462F31BFE166D00B945C0;
+					};
+				};
+			};
+			buildConfigurationList = 322462EF1BFE166D00B945C0 /* Build configuration list for PBXProject "CIBCMars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 322462EB1BFE166D00B945C0;
+			productRefGroup = 322462F51BFE166D00B945C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322462F31BFE166D00B945C0 /* CIBCMars */,
+				322463071BFE166D00B945C0 /* CIBCMarsTests */,
+				322463121BFE166D00B945C0 /* CIBCMarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322462F21BFE166D00B945C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322463021BFE166D00B945C0 /* LaunchScreen.storyboard in Resources */,
+				322462FF1BFE166D00B945C0 /* Assets.xcassets in Resources */,
+				322462FD1BFE166D00B945C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322463061BFE166D00B945C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322463111BFE166D00B945C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322462F01BFE166D00B945C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322462FA1BFE166D00B945C0 /* ViewController.swift in Sources */,
+				322462F81BFE166D00B945C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322463041BFE166D00B945C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3224630D1BFE166D00B945C0 /* CIBCMarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3224630F1BFE166D00B945C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322463181BFE166D00B945C0 /* CIBCMarsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3224630A1BFE166D00B945C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322462F31BFE166D00B945C0 /* CIBCMars */;
+			targetProxy = 322463091BFE166D00B945C0 /* PBXContainerItemProxy */;
+		};
+		322463151BFE166D00B945C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322462F31BFE166D00B945C0 /* CIBCMars */;
+			targetProxy = 322463141BFE166D00B945C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		322462FB1BFE166D00B945C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322462FC1BFE166D00B945C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		322463001BFE166D00B945C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322463011BFE166D00B945C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3224631A1BFE166D00B945C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3224631B1BFE166D00B945C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3224631D1BFE166D00B945C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CIBCMars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.random.CIBCMars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3224631E1BFE166D00B945C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CIBCMars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.random.CIBCMars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		322463201BFE166D00B945C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CIBCMarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.random.CIBCMarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIBCMars.app/CIBCMars";
+			};
+			name = Debug;
+		};
+		322463211BFE166D00B945C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CIBCMarsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.random.CIBCMarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIBCMars.app/CIBCMars";
+			};
+			name = Release;
+		};
+		322463231BFE166D00B945C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CIBCMarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.random.CIBCMarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CIBCMars;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		322463241BFE166D00B945C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CIBCMarsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.random.CIBCMarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CIBCMars;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322462EF1BFE166D00B945C0 /* Build configuration list for PBXProject "CIBCMars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3224631A1BFE166D00B945C0 /* Debug */,
+				3224631B1BFE166D00B945C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3224631C1BFE166D00B945C0 /* Build configuration list for PBXNativeTarget "CIBCMars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3224631D1BFE166D00B945C0 /* Debug */,
+				3224631E1BFE166D00B945C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3224631F1BFE166D00B945C0 /* Build configuration list for PBXNativeTarget "CIBCMarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322463201BFE166D00B945C0 /* Debug */,
+				322463211BFE166D00B945C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		322463221BFE166D00B945C0 /* Build configuration list for PBXNativeTarget "CIBCMarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322463231BFE166D00B945C0 /* Debug */,
+				322463241BFE166D00B945C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 322462EC1BFE166D00B945C0 /* Project object */;
+}
